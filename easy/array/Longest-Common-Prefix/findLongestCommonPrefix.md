@@ -180,27 +180,9 @@ Kết quả:
 ```js
 "flowe"
 ```
-
 ---
 
 
-
----
-
-# Độ phức tạp
-
-Giả sử:
-
-- `n` = số lượng chuỗi
-- `m` = độ dài tiền tố
-
-Độ phức tạp:
-
-```txt
-O(n * m)
-```
-
----
 
 # Tổng kết tư duy
 
