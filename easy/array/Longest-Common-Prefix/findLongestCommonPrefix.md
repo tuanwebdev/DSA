@@ -183,38 +183,7 @@ Kết quả:
 
 ---
 
-# Code hoàn chỉnh
 
-```js
-function longestCommonPrefix(strs) {
-
-    // Nếu mảng rỗng
-    if (strs.length === 0) {
-        return "";
-    }
-
-    // Lấy chuỗi đầu tiên làm prefix ban đầu
-    let prefix = strs[0];
-
-    // Duyệt các chuỗi còn lại
-    for (let i = 1; i < strs.length; i++) {
-
-        // Nếu chuỗi hiện tại không bắt đầu bằng prefix
-        while (strs[i].indexOf(prefix) !== 0) {
-
-            // Cắt bớt ký tự cuối
-            prefix = prefix.slice(0, -1);
-
-            // Nếu prefix rỗng
-            if (prefix === "") {
-                return "";
-            }
-        }
-    }
-
-    return prefix;
-}
-```
 
 ---
 
