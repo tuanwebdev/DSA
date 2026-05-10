@@ -1,4 +1,3 @@
-````md
 # Longest Common Prefix
 
 ## Đề bài
@@ -247,4 +246,3 @@ Ta liên tục:
   - kiểm tra lại
 
 Cho đến khi tìm được tiền tố chung dài nhất.
-````
