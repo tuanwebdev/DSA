@@ -1,4 +1,3 @@
-````
 ## 1. Yêu cầu bài toán
 
 Cho một mảng số nguyên `nums` đã được sắp xếp theo thứ tự tăng dần.
@@ -220,11 +219,7 @@ k++
 
 ---
 
-
-
----
-
-# 7. Tại sao bài này dùng Two Pointers?
+# 8. Tại sao bài này dùng Two Pointers?
 
 Vì ta cần:
 
@@ -241,9 +236,7 @@ Vì ta cần:
 
 ---
 
-
-
-# 8. Điều bài toán thật sự muốn kiểm tra
+# 9. Điều bài toán thật sự muốn kiểm tra
 
 ## Không phải việc "xóa phần tử"
 
@@ -257,7 +250,7 @@ Mà là kiểm tra bạn có biết:
 
 ---
 
-# 9. Tóm tắt tư duy cốt lõi
+# 10. Tóm tắt tư duy cốt lõi
 
 ## Core Idea
 
@@ -281,7 +274,7 @@ ghi nó vào vùng phía trước của mảng
 
 ---
 
-# 10. Tư duy hình ảnh
+# 11. Tư duy hình ảnh
 
 ```js
 Đọc dữ liệu bằng i
@@ -295,4 +288,3 @@ Ghi dữ liệu bằng k
 
 - `i` chạy tìm số mới
 - `k` xây dựng vùng unique
-````
