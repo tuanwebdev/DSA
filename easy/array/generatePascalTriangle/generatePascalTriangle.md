@@ -98,37 +98,3 @@ Lần lặp 3:    Lấy dòng cuối [1, 2, 1]
               Tạo dòng mới [1, 3, 3, 1]
               Kết quả: [[1],[1,1],[1,2,1],[1,3,3,1]] ← đủ 4 dòng
 ```
-
----
-
-## 📝 Code mẫu đã giải thích
-
-```javascript
-var generatePascalTriangle = function(numRows) {
-    // Mảng chứa tất cả các dòng, bắt đầu với dòng đầu tiên
-    let triangle = [[1]];
-
-    // Lặp cho đến khi đủ numRows dòng
-    while (triangle.length < numRows) {
-        // Mỗi dòng mới luôn bắt đầu bằng 1
-        let newRow = [1];
-        
-        // Lấy dòng cuối cùng hiện tại
-        let lastRow = triangle[triangle.length - 1];
-        
-        // Duyệt qua dòng cuối, cộng từng cặp số đứng cạnh nhau
-        for (let i = 0; i < lastRow.length - 1; i++) {
-            let sum = lastRow[i] + lastRow[i + 1];
-            newRow.push(sum);
-        }
-        
-        // Mỗi dòng mới luôn kết thúc bằng 1
-        newRow.push(1);
-        
-        // Thêm dòng mới vào tam giác
-        triangle.push(newRow);
-    }
-
-    return triangle;
-};
-```
