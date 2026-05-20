@@ -123,18 +123,3 @@ Kết quả:
 [1,3,3,1]
 ```
 
----
-
-# Thuật toán
-
-1. Khởi tạo mảng:
-
-```js id="x1w8n4"
-[1]
-```
-
-2. Với mỗi hàng:
-
-   * cập nhật từ phải sang trái
-   * thêm `1` vào cuối
-
